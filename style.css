@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  max-width: 400px;
+  background-color: #222;
+  color: white;
+  margin: 50px;
+}
+
+img {
+  width: 50px;
+}
+
+.button-Img-Rock,
+.button-Img-Paper,
+.button-Img-Scissors {
+  border-radius: 999px;
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  background-color: #222;
+  cursor: pointer;
+
+}
+
+.resultText {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.moveText {
+  font-size: 20px;
+}
+
+.resetScore,
+.autoPlayButton,
+.js-yes-button,
+.js-no-button {
+  width: 100px;
+  padding: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
